@@ -2,10 +2,11 @@ const rp = require("request-promise");
 const express = require("express");
 const axios = require("axios");
 const app = express();
+const path = require('path')
 const cors = require("cors");
 const port = process.env.PORT || 3000;
 
-const pubblicDirectoryPath = path.join(__dirname, './')
+const pubblicDirectoryPath = path.join(__dirname, './public')
 app.use(express.static(pubblicDirectoryPath))
 
 
