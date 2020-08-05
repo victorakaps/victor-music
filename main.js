@@ -3,7 +3,8 @@ const results_container = document.querySelector("#results")
 
 
 async function getResults(query){
-    let response = await fetch("http://localhost:3000/search?s=" + query);
+    let response = await fetch("/search?s=" + query);
+    // let response = await fetch("http://localhost:3000/search?s=" + query);
     let data = await response.json();
     return data;
 }
