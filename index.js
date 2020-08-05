@@ -2,9 +2,8 @@ const rp = require("request-promise");
 const express = require("express");
 const axios = require("axios");
 const app = express();
-const path = require('path')
 const cors = require("cors");
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 app.use(express.static('public'))
 
