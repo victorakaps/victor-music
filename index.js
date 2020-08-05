@@ -5,6 +5,10 @@ const app = express();
 const cors = require("cors");
 const port = process.env.PORT || 3000;
 
+const pubblicDirectoryPath = path.join(__dirname, './')
+app.use(express.static(pubblicDirectoryPath))
+
+
 app.use(cors()).get("/search", async (req, res) => {
   const query = req.query.hasOwnProperty("s") && req.query.s;
   return res.send(await searchUrl(query));
