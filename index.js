@@ -6,9 +6,7 @@ const path = require('path')
 const cors = require("cors");
 const port = process.env.PORT || 3000;
 
-const pubblicDirectoryPath = path.join(__dirname, './public')
-app.use(express.static(pubblicDirectoryPath))
-
+app.use(express.static('public'))
 
 app.use(cors()).get("/search", async (req, res) => {
   const query = req.query.hasOwnProperty("s") && req.query.s;
