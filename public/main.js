@@ -23,7 +23,7 @@ form.onsubmit = handleOnSubmit;
 
 async function doSearch(query) {
 
-    results_container.innerHTML = `<span class="loader">Searching</span>`;
+    results_container.innerHTML = `<span class="loader">Fetching Songs...</span>`;
 
     const json = await getResults(query); 
     let results = [];
