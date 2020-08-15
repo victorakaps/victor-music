@@ -78,7 +78,7 @@ div#results {
 }
 
 a.track {
-    width: 126px;
+    width: 150px;
     height: fit-content;
     background: rgba(0, 0, 0, 0.7);;
     display: inline-block;
@@ -87,11 +87,13 @@ a.track {
     border-radius: 15px;
     padding: 10px;
     text-decoration: none;
+    outline: none;
 }
 
 .track img {
     width: 100%;
-    height:110px;
+    height:130px;
+    border: 1px silver solid;
     border-radius: 15px;
 }
 
