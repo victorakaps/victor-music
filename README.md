@@ -1,4 +1,5 @@
 # victor-music
 
-<b>Search songs and stream or download, scrapping resso's api</b>
-![Screenshot](firefox_JHU30nY8tg.png)
+#### Search songs and stream or download, scrapping resso's api
+
+<img align="left" src="firefox_JHU30nY8tg.png" width="750px"/>
