@@ -1,6 +1,6 @@
 # victor-music
 
-### Stream or download any Song, scrapping resso's api
+### Stream or download any Song
 
 LIVE DEMO: https://victor-music.herokuapp.com/
 
